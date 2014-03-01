@@ -1,3 +1,33 @@
-.result {
+body {
+  background-color: #3C2263;
+  color: #8A71B1;
+}
+td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  text-shadow: 3px 3px 3px #af69af;
+  font-size: 50px;
+  border: 1px solid white;
+}
+td:hover {
+  background-color: white;
+  opacity: 0.25;
+}
+
+.container {
+ width: 300px;
+}
+
+#gameboard {
+  background-color: #3E093E; 
+  height: 300px;
+  
+}
+
+#scoreboard {
   display: none;
 }
+

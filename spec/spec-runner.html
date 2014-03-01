@@ -1,8 +1,7 @@
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Mocha Tests</title>
-  <link rel="stylesheet" href="mocha.css" />
+  <title>Mocha spec runner</title>
+  <link rel="stylesheet" href="mocha.css">
 </head>
 <body>
   <div id="mocha"></div>
@@ -10,14 +9,13 @@
   <script src="../js/scripts.js"></script>
   <script src="mocha.js"></script>
   <script src="chai.js"></script>
-  <script>mocha.setup('bdd')</script>
+  <script>mocha.setup('bdd');</script>
   <script src="specs.js"></script>
   <script>
-  should = chai.should();
+    should = chai.should();
     mocha.checkLeaks();
     mocha.globals(['jQuery']);
     mocha.run();
   </script>
 </body>
 </html>
- 

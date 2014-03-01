@@ -5,11 +5,26 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Tick-Tack-Toe</title>
+    <title>Tic-Tac-Toe</title>
   </head>
   <body>
     <div class="container">
-      <h1>Tick Tack Toe</h1>
+      <h1>Tic-Tac-Toe</h1>
+
+        <div id="gameboard">
+          <span id="bigWinner"></span>
+          <table> 
+            <tr><td id="0" data-number="0"></td><td id="1" data-number="1"></td><td id="2" data-number="2"></td></tr>
+            <tr><td id="3" data-number="3"></td><td id="4" data-number="4"></td><td id="5" data-number="5"></td></tr>
+            <tr><td id="6" data-number="6"></td><td id="7" data-number="7"></td><td id="8" data-number="8"></td></tr>
+          </table>
+        </div>
+        <div id="scoreboard">
+          <h2>Player X</h2>
+          <p>Player X has <span id='player-x-score'></span></p></br>
+          <h2>Player O</h2>
+          <p>Player O has <span id='player-o-score'></span></p>
+        </div>
     </div>
   </body>
 </html>
